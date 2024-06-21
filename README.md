@@ -29,6 +29,15 @@ This application securely stores your app credentials locally using multi-layer 
 - **Convenience**: Easily manage and access your crucial credentials without compromising security.
 - **Peace of Mind**: Secure your sensitive information with both local encryption and mobile authentication.
 
+## 📷 Screenshots
+
+<!-- Horizontal Images -->
+<p float="left">
+  <img src="https://github.com/prakashvaghasiya/PasswordManagerApp/assets/59412900/3cad7637-d29c-4cd4-b77a-b72835a641c2" width="400" />
+  <img src="https://github.com/prakashvaghasiya/PasswordManagerApp/assets/59412900/a3926b0c-767e-4a23-ace4-326648fd1b3d" width="400" /> 
+  <img src="https://github.com/prakashvaghasiya/PasswordManagerApp/assets/59412900/8391dba6-9c9c-459d-8e2e-a9fc96edc55e" width="400" />
+</p>
+
 ---
 
 Feel free to contribute to this project or report any issues you encounter.
