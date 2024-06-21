@@ -36,6 +36,8 @@ This application securely stores your app credentials locally using multi-layer 
   <img src="https://github.com/prakashvaghasiya/PasswordManagerApp/assets/59412900/3cad7637-d29c-4cd4-b77a-b72835a641c2" width="400" />
   <img src="https://github.com/prakashvaghasiya/PasswordManagerApp/assets/59412900/a3926b0c-767e-4a23-ace4-326648fd1b3d" width="400" /> 
   <img src="https://github.com/prakashvaghasiya/PasswordManagerApp/assets/59412900/8391dba6-9c9c-459d-8e2e-a9fc96edc55e" width="400" />
+  <img src="https://github.com/prakashvaghasiya/PasswordManagerApp/assets/59412900/d29099f5-1421-4b79-9ae8-f0209dd687d4" width="400" />
+  <img src="https://github.com/prakashvaghasiya/PasswordManagerApp/assets/59412900/e8512f43-d5d6-4610-a89e-2285d683715a" width="400" />
 </p>
 
 ---
