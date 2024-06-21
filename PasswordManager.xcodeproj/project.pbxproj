@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C24CAC4E2C2486970049C365 /* Encrypt.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24CAC4D2C2486970049C365 /* Encrypt.swift */; };
+		C24CAC512C248CA00049C365 /* PasswordRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24CAC502C248CA00049C365 /* PasswordRow.swift */; };
+		C24CAC532C248CD10049C365 /* NewAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24CAC522C248CD10049C365 /* NewAccountView.swift */; };
+		C24CAC552C2492510049C365 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24CAC542C2492510049C365 /* Constant.swift */; };
+		C24CAC572C24938A0049C365 /* ColorsExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24CAC562C24938A0049C365 /* ColorsExtension.swift */; };
+		C24CAC592C252F560049C365 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24CAC582C252F560049C365 /* Extensions.swift */; };
+		C24CAC5B2C253EA50049C365 /* SecureInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24CAC5A2C253EA50049C365 /* SecureInputView.swift */; };
+		C24CAC5D2C2543150049C365 /* AccountDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24CAC5C2C2543150049C365 /* AccountDetailsView.swift */; };
+		C24CAC5F2C2556A80049C365 /* ToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24CAC5E2C2556A80049C365 /* ToastView.swift */; };
+		C24CAC762C256BAE0049C365 /* Poppins-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C24CAC622C256BAE0049C365 /* Poppins-ExtraLight.ttf */; };
+		C24CAC772C256BAE0049C365 /* Poppins-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C24CAC632C256BAE0049C365 /* Poppins-ThinItalic.ttf */; };
+		C24CAC782C256BAE0049C365 /* Poppins-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C24CAC642C256BAE0049C365 /* Poppins-ExtraLightItalic.ttf */; };
+		C24CAC792C256BAE0049C365 /* Poppins-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C24CAC652C256BAE0049C365 /* Poppins-BoldItalic.ttf */; };
+		C24CAC7A2C256BAE0049C365 /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C24CAC662C256BAE0049C365 /* Poppins-Light.ttf */; };
+		C24CAC7B2C256BAE0049C365 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C24CAC672C256BAE0049C365 /* Poppins-Medium.ttf */; };
+		C24CAC7C2C256BAE0049C365 /* Poppins-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C24CAC682C256BAE0049C365 /* Poppins-SemiBoldItalic.ttf */; };
+		C24CAC7D2C256BAE0049C365 /* Poppins-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C24CAC692C256BAE0049C365 /* Poppins-ExtraBoldItalic.ttf */; };
+		C24CAC7E2C256BAE0049C365 /* Poppins-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C24CAC6A2C256BAE0049C365 /* Poppins-ExtraBold.ttf */; };
+		C24CAC7F2C256BAE0049C365 /* Poppins-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C24CAC6B2C256BAE0049C365 /* Poppins-BlackItalic.ttf */; };
+		C24CAC812C256BAE0049C365 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C24CAC6D2C256BAE0049C365 /* Poppins-Regular.ttf */; };
+		C24CAC822C256BAE0049C365 /* Poppins-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C24CAC6E2C256BAE0049C365 /* Poppins-LightItalic.ttf */; };
+		C24CAC842C256BAE0049C365 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C24CAC702C256BAE0049C365 /* Poppins-Bold.ttf */; };
+		C24CAC852C256BAE0049C365 /* Poppins-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C24CAC712C256BAE0049C365 /* Poppins-Black.ttf */; };
+		C24CAC862C256BAE0049C365 /* Poppins-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C24CAC722C256BAE0049C365 /* Poppins-Thin.ttf */; };
+		C24CAC872C256BAE0049C365 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C24CAC732C256BAE0049C365 /* Poppins-SemiBold.ttf */; };
+		C24CAC882C256BAE0049C365 /* Poppins-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C24CAC742C256BAE0049C365 /* Poppins-Italic.ttf */; };
+		C24CAC892C256BAE0049C365 /* Poppins-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C24CAC752C256BAE0049C365 /* Poppins-MediumItalic.ttf */; };
+		C24CAC8C2C2592630049C365 /* AuthenticationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24CAC8B2C2592630049C365 /* AuthenticationView.swift */; };
+		C285B66E2C2471D600B1DC6A /* PasswordManagerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C285B66D2C2471D600B1DC6A /* PasswordManagerApp.swift */; };
+		C285B6702C2471D600B1DC6A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C285B66F2C2471D600B1DC6A /* HomeView.swift */; };
+		C285B6722C2471D800B1DC6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C285B6712C2471D800B1DC6A /* Assets.xcassets */; };
+		C285B6752C2471D800B1DC6A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C285B6742C2471D800B1DC6A /* Preview Assets.xcassets */; };
+		C285B67E2C24720000B1DC6A /* PasswordManage.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C285B67C2C24720000B1DC6A /* PasswordManage.xcdatamodeld */; };
+		C285B6852C24730000B1DC6A /* PasswordManage+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C285B6832C24730000B1DC6A /* PasswordManage+CoreDataClass.swift */; };
+		C285B6862C24730000B1DC6A /* PasswordManage+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C285B6842C24730000B1DC6A /* PasswordManage+CoreDataProperties.swift */; };
+		C285B6892C2473B100B1DC6A /* PasswordManagerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C285B6882C2473B100B1DC6A /* PasswordManagerModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C24CAC4D2C2486970049C365 /* Encrypt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Encrypt.swift; sourceTree = "<group>"; };
+		C24CAC502C248CA00049C365 /* PasswordRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordRow.swift; sourceTree = "<group>"; };
+		C24CAC522C248CD10049C365 /* NewAccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewAccountView.swift; sourceTree = "<group>"; };
+		C24CAC542C2492510049C365 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		C24CAC562C24938A0049C365 /* ColorsExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsExtension.swift; sourceTree = "<group>"; };
+		C24CAC582C252F560049C365 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		C24CAC5A2C253EA50049C365 /* SecureInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureInputView.swift; sourceTree = "<group>"; };
+		C24CAC5C2C2543150049C365 /* AccountDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountDetailsView.swift; sourceTree = "<group>"; };
+		C24CAC5E2C2556A80049C365 /* ToastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastView.swift; sourceTree = "<group>"; };
+		C24CAC622C256BAE0049C365 /* Poppins-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraLight.ttf"; sourceTree = "<group>"; };
+		C24CAC632C256BAE0049C365 /* Poppins-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ThinItalic.ttf"; sourceTree = "<group>"; };
+		C24CAC642C256BAE0049C365 /* Poppins-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		C24CAC652C256BAE0049C365 /* Poppins-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-BoldItalic.ttf"; sourceTree = "<group>"; };
+		C24CAC662C256BAE0049C365 /* Poppins-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Light.ttf"; sourceTree = "<group>"; };
+		C24CAC672C256BAE0049C365 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		C24CAC682C256BAE0049C365 /* Poppins-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		C24CAC692C256BAE0049C365 /* Poppins-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		C24CAC6A2C256BAE0049C365 /* Poppins-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraBold.ttf"; sourceTree = "<group>"; };
+		C24CAC6B2C256BAE0049C365 /* Poppins-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-BlackItalic.ttf"; sourceTree = "<group>"; };
+		C24CAC6D2C256BAE0049C365 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		C24CAC6E2C256BAE0049C365 /* Poppins-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-LightItalic.ttf"; sourceTree = "<group>"; };
+		C24CAC702C256BAE0049C365 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		C24CAC712C256BAE0049C365 /* Poppins-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Black.ttf"; sourceTree = "<group>"; };
+		C24CAC722C256BAE0049C365 /* Poppins-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Thin.ttf"; sourceTree = "<group>"; };
+		C24CAC732C256BAE0049C365 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		C24CAC742C256BAE0049C365 /* Poppins-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Italic.ttf"; sourceTree = "<group>"; };
+		C24CAC752C256BAE0049C365 /* Poppins-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-MediumItalic.ttf"; sourceTree = "<group>"; };
+		C24CAC8A2C256BDD0049C365 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		C24CAC8B2C2592630049C365 /* AuthenticationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationView.swift; sourceTree = "<group>"; };
+		C285B66A2C2471D600B1DC6A /* PasswordManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PasswordManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C285B66D2C2471D600B1DC6A /* PasswordManagerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordManagerApp.swift; sourceTree = "<group>"; };
+		C285B66F2C2471D600B1DC6A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		C285B6712C2471D800B1DC6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C285B6742C2471D800B1DC6A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C285B67D2C24720000B1DC6A /* PasswordManager.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PasswordManager.xcdatamodel; sourceTree = "<group>"; };
+		C285B6832C24730000B1DC6A /* PasswordManage+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PasswordManage+CoreDataClass.swift"; sourceTree = "<group>"; };
+		C285B6842C24730000B1DC6A /* PasswordManage+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PasswordManage+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		C285B6882C2473B100B1DC6A /* PasswordManagerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordManagerModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C285B6672C2471D600B1DC6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C24CAC4C2C24867D0049C365 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				C24CAC602C256B920049C365 /* Font */,
+				C24CAC4D2C2486970049C365 /* Encrypt.swift */,
+				C24CAC542C2492510049C365 /* Constant.swift */,
+				C24CAC562C24938A0049C365 /* ColorsExtension.swift */,
+				C24CAC582C252F560049C365 /* Extensions.swift */,
+				C24CAC5E2C2556A80049C365 /* ToastView.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		C24CAC4F2C248C950049C365 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C285B66F2C2471D600B1DC6A /* HomeView.swift */,
+				C24CAC502C248CA00049C365 /* PasswordRow.swift */,
+				C24CAC522C248CD10049C365 /* NewAccountView.swift */,
+				C24CAC5A2C253EA50049C365 /* SecureInputView.swift */,
+				C24CAC5C2C2543150049C365 /* AccountDetailsView.swift */,
+				C24CAC8B2C2592630049C365 /* AuthenticationView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C24CAC602C256B920049C365 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				C24CAC612C256BAE0049C365 /* Poppins */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		C24CAC612C256BAE0049C365 /* Poppins */ = {
+			isa = PBXGroup;
+			children = (
+				C24CAC622C256BAE0049C365 /* Poppins-ExtraLight.ttf */,
+				C24CAC632C256BAE0049C365 /* Poppins-ThinItalic.ttf */,
+				C24CAC642C256BAE0049C365 /* Poppins-ExtraLightItalic.ttf */,
+				C24CAC652C256BAE0049C365 /* Poppins-BoldItalic.ttf */,
+				C24CAC662C256BAE0049C365 /* Poppins-Light.ttf */,
+				C24CAC672C256BAE0049C365 /* Poppins-Medium.ttf */,
+				C24CAC682C256BAE0049C365 /* Poppins-SemiBoldItalic.ttf */,
+				C24CAC692C256BAE0049C365 /* Poppins-ExtraBoldItalic.ttf */,
+				C24CAC6A2C256BAE0049C365 /* Poppins-ExtraBold.ttf */,
+				C24CAC6B2C256BAE0049C365 /* Poppins-BlackItalic.ttf */,
+				C24CAC6D2C256BAE0049C365 /* Poppins-Regular.ttf */,
+				C24CAC6E2C256BAE0049C365 /* Poppins-LightItalic.ttf */,
+				C24CAC702C256BAE0049C365 /* Poppins-Bold.ttf */,
+				C24CAC712C256BAE0049C365 /* Poppins-Black.ttf */,
+				C24CAC722C256BAE0049C365 /* Poppins-Thin.ttf */,
+				C24CAC732C256BAE0049C365 /* Poppins-SemiBold.ttf */,
+				C24CAC742C256BAE0049C365 /* Poppins-Italic.ttf */,
+				C24CAC752C256BAE0049C365 /* Poppins-MediumItalic.ttf */,
+			);
+			path = Poppins;
+			sourceTree = "<group>";
+		};
+		C285B6612C2471D600B1DC6A = {
+			isa = PBXGroup;
+			children = (
+				C285B66C2C2471D600B1DC6A /* PasswordManager */,
+				C285B66B2C2471D600B1DC6A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C285B66B2C2471D600B1DC6A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C285B66A2C2471D600B1DC6A /* PasswordManager.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C285B66C2C2471D600B1DC6A /* PasswordManager */ = {
+			isa = PBXGroup;
+			children = (
+				C24CAC8A2C256BDD0049C365 /* Info.plist */,
+				C285B66D2C2471D600B1DC6A /* PasswordManagerApp.swift */,
+				C285B6712C2471D800B1DC6A /* Assets.xcassets */,
+				C24CAC4F2C248C950049C365 /* Views */,
+				C285B6872C24737D00B1DC6A /* Model */,
+				C285B67B2C2471E100B1DC6A /* Database */,
+				C24CAC4C2C24867D0049C365 /* Helper */,
+				C285B6732C2471D800B1DC6A /* Preview Content */,
+			);
+			path = PasswordManager;
+			sourceTree = "<group>";
+		};
+		C285B6732C2471D800B1DC6A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C285B6742C2471D800B1DC6A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C285B67B2C2471E100B1DC6A /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				C285B6832C24730000B1DC6A /* PasswordManage+CoreDataClass.swift */,
+				C285B6842C24730000B1DC6A /* PasswordManage+CoreDataProperties.swift */,
+				C285B67C2C24720000B1DC6A /* PasswordManage.xcdatamodeld */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		C285B6872C24737D00B1DC6A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C285B6882C2473B100B1DC6A /* PasswordManagerModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C285B6692C2471D600B1DC6A /* PasswordManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C285B6782C2471D800B1DC6A /* Build configuration list for PBXNativeTarget "PasswordManager" */;
+			buildPhases = (
+				C285B6662C2471D600B1DC6A /* Sources */,
+				C285B6672C2471D600B1DC6A /* Frameworks */,
+				C285B6682C2471D600B1DC6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PasswordManager;
+			productName = PasswordManager;
+			productReference = C285B66A2C2471D600B1DC6A /* PasswordManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C285B6622C2471D600B1DC6A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					C285B6692C2471D600B1DC6A = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = C285B6652C2471D600B1DC6A /* Build configuration list for PBXProject "PasswordManager" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C285B6612C2471D600B1DC6A;
+			productRefGroup = C285B66B2C2471D600B1DC6A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C285B6692C2471D600B1DC6A /* PasswordManager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C285B6682C2471D600B1DC6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C24CAC862C256BAE0049C365 /* Poppins-Thin.ttf in Resources */,
+				C24CAC892C256BAE0049C365 /* Poppins-MediumItalic.ttf in Resources */,
+				C24CAC7A2C256BAE0049C365 /* Poppins-Light.ttf in Resources */,
+				C24CAC822C256BAE0049C365 /* Poppins-LightItalic.ttf in Resources */,
+				C24CAC762C256BAE0049C365 /* Poppins-ExtraLight.ttf in Resources */,
+				C24CAC872C256BAE0049C365 /* Poppins-SemiBold.ttf in Resources */,
+				C24CAC772C256BAE0049C365 /* Poppins-ThinItalic.ttf in Resources */,
+				C24CAC782C256BAE0049C365 /* Poppins-ExtraLightItalic.ttf in Resources */,
+				C24CAC852C256BAE0049C365 /* Poppins-Black.ttf in Resources */,
+				C24CAC882C256BAE0049C365 /* Poppins-Italic.ttf in Resources */,
+				C24CAC7F2C256BAE0049C365 /* Poppins-BlackItalic.ttf in Resources */,
+				C24CAC7D2C256BAE0049C365 /* Poppins-ExtraBoldItalic.ttf in Resources */,
+				C24CAC792C256BAE0049C365 /* Poppins-BoldItalic.ttf in Resources */,
+				C24CAC7C2C256BAE0049C365 /* Poppins-SemiBoldItalic.ttf in Resources */,
+				C24CAC812C256BAE0049C365 /* Poppins-Regular.ttf in Resources */,
+				C24CAC842C256BAE0049C365 /* Poppins-Bold.ttf in Resources */,
+				C24CAC7E2C256BAE0049C365 /* Poppins-ExtraBold.ttf in Resources */,
+				C24CAC7B2C256BAE0049C365 /* Poppins-Medium.ttf in Resources */,
+				C285B6752C2471D800B1DC6A /* Preview Assets.xcassets in Resources */,
+				C285B6722C2471D800B1DC6A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C285B6662C2471D600B1DC6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C285B67E2C24720000B1DC6A /* PasswordManage.xcdatamodeld in Sources */,
+				C24CAC5B2C253EA50049C365 /* SecureInputView.swift in Sources */,
+				C24CAC532C248CD10049C365 /* NewAccountView.swift in Sources */,
+				C285B6862C24730000B1DC6A /* PasswordManage+CoreDataProperties.swift in Sources */,
+				C24CAC5F2C2556A80049C365 /* ToastView.swift in Sources */,
+				C24CAC4E2C2486970049C365 /* Encrypt.swift in Sources */,
+				C285B6852C24730000B1DC6A /* PasswordManage+CoreDataClass.swift in Sources */,
+				C24CAC572C24938A0049C365 /* ColorsExtension.swift in Sources */,
+				C285B6702C2471D600B1DC6A /* HomeView.swift in Sources */,
+				C24CAC592C252F560049C365 /* Extensions.swift in Sources */,
+				C285B6892C2473B100B1DC6A /* PasswordManagerModel.swift in Sources */,
+				C24CAC552C2492510049C365 /* Constant.swift in Sources */,
+				C285B66E2C2471D600B1DC6A /* PasswordManagerApp.swift in Sources */,
+				C24CAC512C248CA00049C365 /* PasswordRow.swift in Sources */,
+				C24CAC8C2C2592630049C365 /* AuthenticationView.swift in Sources */,
+				C24CAC5D2C2543150049C365 /* AccountDetailsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C285B6762C2471D800B1DC6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C285B6772C2471D800B1DC6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C285B6792C2471D800B1DC6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PasswordManager/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PasswordManager/Info.plist;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "App wants authentication permission for your data security";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.orangemantra.PasswordManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C285B67A2C2471D800B1DC6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PasswordManager/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PasswordManager/Info.plist;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "App wants authentication permission for your data security";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.orangemantra.PasswordManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C285B6652C2471D600B1DC6A /* Build configuration list for PBXProject "PasswordManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C285B6762C2471D800B1DC6A /* Debug */,
+				C285B6772C2471D800B1DC6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C285B6782C2471D800B1DC6A /* Build configuration list for PBXNativeTarget "PasswordManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C285B6792C2471D800B1DC6A /* Debug */,
+				C285B67A2C2471D800B1DC6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C285B67C2C24720000B1DC6A /* PasswordManage.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C285B67D2C24720000B1DC6A /* PasswordManager.xcdatamodel */,
+			);
+			currentVersion = C285B67D2C24720000B1DC6A /* PasswordManager.xcdatamodel */;
+			path = PasswordManage.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C285B6622C2471D600B1DC6A /* Project object */;
+}
